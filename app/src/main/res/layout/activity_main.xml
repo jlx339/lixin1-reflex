@@ -11,36 +11,35 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Welcome to the Reflex!                            Please select from the following modes: "
         android:textSize="20dp"
-        android:layout_marginTop="20dp"
         android:id="@+id/welcomeMessage"
         android:textColor="#ffffff"
         android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/myStatistics"
-        android:layout_alignEnd="@+id/practiseModeButton" />
+        android:layout_alignStart="@+id/practiseModeButton"
+        android:layout_marginTop="40dp" />
 
     <Button
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:id="@+id/practiseModeButton"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="40dp"
+        android:text="Practise Mode"
         android:layout_below="@+id/welcomeMessage"
-        android:layout_alignStart="@+id/myStatistics"
-        android:text="Practise Mode" />
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:id="@+id/gameModeButton"
+        android:text="Game Mode"
         android:layout_below="@+id/practiseModeButton"
-        android:layout_alignStart="@+id/myStatistics"
-        android:text="Game Mode" />
+        android:layout_alignStart="@+id/practiseModeButton" />
 
     <Button
         android:layout_width="300dp"
         android:layout_height="100dp"
-        android:id="@+id/myStatistics"
+        android:id="@+id/myStatisticsButton"
+        android:text="My Statistics"
         android:layout_below="@+id/gameModeButton"
-        android:layout_centerHorizontal="true"
-        android:text="My Statistics" />
+        android:layout_alignStart="@+id/gameModeButton" />
 
 </RelativeLayout>

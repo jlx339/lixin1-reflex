@@ -16,6 +16,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".gameModeSelectActivity"
+            android:label="@string/title_activity_game_mode_select" >
+        </activity>
+        <activity
+            android:name=".GameModeSelectActivity"
+            android:label="@string/title_activity_game_mode_select" >
+        </activity>
+        <activity
+            android:name=".PractiseModeActivity"
+            android:label="@string/title_activity_practise_mode" >
+        </activity>
+        <activity
+            android:name=".MyStatisticSelectActivity"
+            android:label="@string/title_activity_my_statistic_select" >
+        </activity>
+        <activity
+            android:name=".PractiseModeInstructionActivity"
+            android:label="@string/title_activity_practise_mode_instruction" >
+        </activity>
     </application>
 
 </manifest>

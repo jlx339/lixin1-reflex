@@ -3,7 +3,7 @@
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:background="#000000">
 
-    <EditText
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/statisticSelectMessage"
@@ -13,8 +13,10 @@
         android:text="Please select the type of statistic you want to see:"
         android:textColor="#fff"
         android:layout_marginTop="40dp"
+        android:textSize="20dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignEnd="@+id/PractiseStatisticsButton"
+        android:layout_alignStart="@+id/PractiseStatisticsButton" />
 
     <Button
         android:layout_width="300dp"
