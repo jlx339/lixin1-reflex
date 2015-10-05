@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">lixin1-reflex</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_game_mode_select">Game Mode Select</string>
+    <string name="title_activity_game_mode_select1">GameModeSelect1Activity</string>
+    <string name="title_activity_practise_mode">PractiseModeActivity</string>
+    <string name="title_activity_my_statistic_select">MyStatisticSelectActivity</string>
+    <string name="title_activity_practise_mode_instruction">Practise Mode Activity Instruction
+    </string>
+    <string name="title_activity_game_mode_two_players">GameModeTwoPlayers</string>
+    <string name="title_activity_game_mode_three_players">GameModeThreePlayers</string>
+    <string name="title_activity_game_mode_four_players">GameModeFourPlayers</string>
+    <string name="title_activity_my_statistic_practise">MyStatisticPractise</string>
+    <string name="title_activity_my_statistic_game">MyStatisticGame</string>
+</resources>
