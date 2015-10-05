@@ -3,4 +3,55 @@
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:background="#000000">
 
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:id="@+id/modeTwoPlayer1Button"
+        android:adjustViewBounds="true"
+        android:background="@drawable/buzzer_image"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="70dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player1"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:id="@+id/modeTwoPlayer1"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="51dp"
+        android:layout_alignBottom="@+id/modeTwoPlayer1Button"
+        android:layout_toStartOf="@+id/modeTwoPlayer1Button" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:id="@+id/modeTwoPlayer2Button"
+        android:adjustViewBounds="true"
+        android:background="@drawable/buzzer_image"
+        android:layout_below="@+id/modeTwoPlayer1Button"
+        android:layout_alignEnd="@+id/modeTwoPlayer1Button"
+        android:layout_marginTop="140dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player2"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:id="@+id/modeTwoPlayer2"
+        android:layout_marginBottom="51dp"
+        android:layout_alignBottom="@+id/modeTwoPlayer2Button"
+        android:layout_alignStart="@+id/modeTwoPlayer1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:id="@+id/modeTwoStartButton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>

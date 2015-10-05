@@ -15,13 +15,13 @@
         android:layout_marginTop="40dp"
         android:textSize="20dp"
         android:layout_alignParentTop="true"
-        android:layout_alignEnd="@+id/PractiseStatisticsButton"
-        android:layout_alignStart="@+id/PractiseStatisticsButton" />
+        android:layout_alignEnd="@+id/practiseStatisticsButton"
+        android:layout_alignStart="@+id/practiseStatisticsButton" />
 
     <Button
         android:layout_width="300dp"
         android:layout_height="100dp"
-        android:id="@+id/PractiseStatisticsButton"
+        android:id="@+id/practiseStatisticsButton"
         android:layout_marginTop="60dp"
         android:text="My Practise Statistics"
         android:layout_below="@+id/statisticSelectMessage"
@@ -30,10 +30,10 @@
     <Button
         android:layout_width="300dp"
         android:layout_height="100dp"
-        android:id="@+id/GameStatisticsButton"
+        android:id="@+id/gameStatisticsButton"
         android:layout_marginTop="40dp"
         android:text="My Game Statistics"
-        android:layout_below="@+id/PractiseStatisticsButton"
-        android:layout_alignStart="@+id/PractiseStatisticsButton" />
+        android:layout_below="@+id/practiseStatisticsButton"
+        android:layout_alignStart="@+id/practiseStatisticsButton" />
 
 </RelativeLayout>

@@ -36,6 +36,26 @@
             android:name=".PractiseModeInstructionActivity"
             android:label="@string/title_activity_practise_mode_instruction" >
         </activity>
+        <activity
+            android:name=".GameModeTwoPlayers"
+            android:label="@string/title_activity_game_mode_two_players" >
+        </activity>
+        <activity
+            android:name=".GameModeThreePlayers"
+            android:label="@string/title_activity_game_mode_three_players" >
+        </activity>
+        <activity
+            android:name=".GameModeFourPlayers"
+            android:label="@string/title_activity_game_mode_four_players" >
+        </activity>
+        <activity
+            android:name=".MyStatisticPractise"
+            android:label="@string/title_activity_my_statistic_practise" >
+        </activity>
+        <activity
+            android:name=".MyStatisticGame"
+            android:label="@string/title_activity_my_statistic_game" >
+        </activity>
     </application>
 
 </manifest>
