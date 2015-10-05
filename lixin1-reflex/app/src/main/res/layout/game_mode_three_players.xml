@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000000">
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:id="@+id/modeThreePlayer1Button"
+        android:adjustViewBounds="true"
+        android:background="@drawable/buzzer_image"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="70dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player1"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:id="@+id/modeThreePlayer1"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="51dp"
+        android:layout_alignBottom="@+id/modeThreePlayer1Button"
+        android:layout_toStartOf="@+id/modeThreePlayer1Button" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:id="@+id/modeThreePlayer2Button"
+        android:adjustViewBounds="true"
+        android:background="@drawable/buzzer_image"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/modeThreePlayer3Button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player2"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:id="@+id/modeThreePlayer2"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/modeThreePlayer1" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:id="@+id/modeThreePlayer3Button"
+        android:adjustViewBounds="true"
+        android:background="@drawable/buzzer_image"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/modeThreePlayer1Button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player3"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:id="@+id/modeThreePlayer3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/modeThreePlayer2"
+        android:layout_marginBottom="55dp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:id="@+id/modeThreeStartButton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

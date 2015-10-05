@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/statisticSelectMessage"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Please select the type of statistic you want to see:"
+        android:textColor="#fff"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/practiseStatisticsButton"
+        android:layout_alignStart="@+id/practiseStatisticsButton" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:id="@+id/practiseStatisticsButton"
+        android:layout_marginTop="60dp"
+        android:text="My Practise Statistics"
+        android:layout_below="@+id/statisticSelectMessage"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:id="@+id/gameStatisticsButton"
+        android:layout_marginTop="40dp"
+        android:text="My Game Statistics"
+        android:layout_below="@+id/practiseStatisticsButton"
+        android:layout_alignStart="@+id/practiseStatisticsButton" />
+
+</RelativeLayout>

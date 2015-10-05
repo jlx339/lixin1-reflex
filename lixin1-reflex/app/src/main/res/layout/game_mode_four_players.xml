@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000000">
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:id="@+id/modeFourPlayer1Button"
+        android:adjustViewBounds="true"
+        android:background="@drawable/buzzer_image"
+        android:layout_alignBottom="@+id/modeFourPlayer2Button"
+        android:layout_toStartOf="@+id/modeFourStartButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player1"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:id="@+id/modeFourPlayer1"
+        android:layout_alignBottom="@+id/modeFourPlayer1Button"
+        android:layout_alignStart="@+id/modeFourPlayer1Button" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:id="@+id/modeFourPlayer2Button"
+        android:adjustViewBounds="true"
+        android:background="@drawable/buzzer_image"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/modeFourStartButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player2"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:id="@+id/modeFourPlayer2"
+        android:layout_alignBottom="@+id/modeFourPlayer2Button"
+        android:layout_alignEnd="@+id/modeFourPlayer2Button" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:id="@+id/modeFourPlayer3Button"
+        android:adjustViewBounds="true"
+        android:background="@drawable/buzzer_image"
+        android:layout_above="@+id/modeFourPlayer3"
+        android:layout_toStartOf="@+id/modeFourStartButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player3"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:id="@+id/modeFourPlayer3"
+        android:layout_marginBottom="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/modeFourPlayer3Button" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:id="@+id/modeFourPlayer4Button"
+        android:adjustViewBounds="true"
+        android:background="@drawable/buzzer_image"
+        android:layout_above="@+id/modeFourPlayer4"
+        android:layout_alignStart="@+id/modeFourPlayer2Button" />
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player4"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:id="@+id/modeFourPlayer4"
+        android:layout_below="@+id/modeFourPlayer3Button"
+        android:layout_alignEnd="@+id/modeFourPlayer4Button" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:id="@+id/modeFourStartButton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+
